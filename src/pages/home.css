@@ -1,0 +1,299 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Assistant:wght@200&family=Corinthia:wght@700&family=Cormorant+Garamond:wght@300&family=Kalam:wght@300&family=Oswald:wght@200&family=Poppins&family=Tajawal:wght@200;300;400&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  /* overflow-x: hidden; */
+}
+
+ .meal-plan{
+   background-image: url(/public/images/image2.jpg); 
+  height: 110vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  position: relative; 
+  overflow: hidden; 
+  
+} 
+
+/* .meal-plan{
+  height: 100vh;
+  width: 100%;
+  background-color: rgb(138, 117, 134);
+  border-bottom-left-radius: 5%;
+  border-bottom-right-radius: 5% ;
+  box-shadow: 5px 5px 15px rgba(141, 140, 140, 0.9);
+
+
+} */
+
+.plan-card{
+  height: 45rem;
+  width: 55rem;
+  background-color: rgb(153, 183, 214);
+  clip-path: circle(50% at 0% 0%);
+  transition: clip-path;
+
+}
+
+
+
+
+
+body{
+  font-family: 'Oswald';
+}
+
+.meal-plan h1{
+    font-size: 6rem;
+    margin-left: 5rem;
+    width: 20%;
+}
+
+.fluffy-details h1{
+  text-align: center;
+  margin-top: 5rem;
+
+}
+
+.fluffy-details p{
+  text-align: center;
+}
+
+.card-profile1{
+  height:38rem;
+  width: 23rem;
+  background-color: blue;
+  border-radius: 10px;
+  box-shadow: 0px 0px 6px 0px gray;;
+}
+
+.profile-inner{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 3rem;
+}
+.card-profile1 img{
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: 50% 50%;
+
+}
+.card-profile1 h2{
+  color: white;
+  margin-bottom: 1rem;
+}
+
+.card-profile1 h3{
+  font-size: 1rem;
+  color: grey;
+  margin-bottom: 0.5rem;
+}
+
+.card-profile1 p{
+  width: 50%;
+  color: white;
+}
+.card-profile1 button{
+  padding: 0.7rem 2.1rem;
+  color: #ffffff;
+  background: #f7ff00;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #db36a4, #f7ff00);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #db36a4, #f7ff00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  ;
+  font-size: 1rem;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-family: 'Oswald';
+  margin-top: 1rem;
+}
+
+.round-icon{
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+}
+
+.round-icon i{
+  margin-left: 2rem;
+  margin-top: 2rem;
+  font-size: 1.5rem;
+  color: white;
+}
+
+.social1 h4, h5{
+  margin-left: 1rem;
+  color: white;
+}
+
+.container{
+  width: 80%;
+  margin: auto;
+}
+
+.dog-profiles{
+  margin-top: 5rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
+
+.dog-social{
+  margin-top: 2.5rem;
+  display: flex;
+  margin-left: 3rem;
+  gap: 30px;
+}
+
+.card-dog1{
+  background-color: rgb(33, 33, 48);
+}
+
+/* .card-dog1 button{
+ 
+} */
+
+.round1{
+  background-color: #db36a4;
+
+}
+
+.round2{
+  background-color: mediumslateblue;
+
+}
+
+.round3{
+  background-color: plum;
+
+}
+
+.card-dog2{
+   background: #F1F2B5;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #135058, #F1F2B5);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #135058, #F1F2B5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  ;
+
+}
+
+.card-dog3{
+  background: #414d0b;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #727a17, #414d0b);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #727a17, #414d0b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+   ;
+}
+
+.card-dog4{
+  background-color: black;
+}
+
+
+.card-dog5{
+  background-color: rgb(29, 15, 23);
+}
+
+.card-dog6{
+  background-color: rgb(10, 31, 24);
+}
+
+/*styling the forms*/
+
+.form-inner{
+  /* background-color: rgb(255,127,80); */
+  height: 700px;
+  display: flex;
+}
+
+.outer-form{
+  max-width: 28rem;
+  height: 35rem;
+  background-color: black;
+  margin: 60px 100px;
+  border-radius: 10px;
+  padding-top: 2rem;
+  
+}
+
+form input{
+  display: block;
+  width: 70%;
+  margin-top: 1rem;
+  padding: 1rem;
+  border: 0;
+  border-radius: 5px;
+  margin-left: 3rem;
+  font-weight: bolder;
+  font-family: 'Oswald';
+  font-size: 1.1rem;
+  outline: none;
+
+}
+
+.outer-form h4{
+  color: white;
+  text-align: center;
+  padding-top: 1rem;
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.outer-form i{
+  color: rgb(255,215,0);
+  font-size: 3rem;
+  margin-left: 12rem;
+}
+
+
+
+ form textarea{
+  margin-left: 3rem;
+  margin-top: 2rem;
+} 
+
+.outer-form button{
+  padding: 0.7rem 2.1rem;
+  background-color: rgb(255,215,0);
+  color: #ffffff;
+  font-size: 1rem;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-family: 'Oswald';
+  margin-left: 10rem;
+  margin-top: 2rem;
+  font-weight: bolder;
+}
+
+.part{
+  color: red;
+}
+.part2{
+  color: green;
+  font-size: 2rem;
+}
+
+/*styling the footer*/
+footer{
+  height: 150px;
+  background-color: rgb(38, 27, 46);
+  margin-top: 4rem;
+  color: white;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  padding-top: 2rem;
+}
+
+footer p{
+  margin-top: 2rem;
+}

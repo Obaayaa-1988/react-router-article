@@ -1,0 +1,44 @@
+
+.taste{
+    display: flex;
+    gap: 50px
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+.about-woof img{
+    margin-top: 2rem;
+    margin-left: 2rem;
+ width: 28rem;
+  height: 30rem;
+  object-fit: cover;
+  object-position: 50% 50%;
+}
+
+.woof-under{
+    height: 28rem ;
+    height: 35rem;
+    background-color: yellow;
+}
+
+
+.about-tasters p{
+    width: 60%;
+}
+
+.about-para button{
+    background: transparent;
+  padding: 1rem 4rem;
+  background-color: rgb(27, 27, 26);
+  border: none;
+  outline: none;
+  color: white;
+  border-radius: 5px;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  cursor: pointer;
+  font-size: 1rem;
+  font-family: 'Oswald';
+}
